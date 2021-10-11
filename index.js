@@ -57,7 +57,7 @@ Client.on('ready', async () => {
 
 		setInterval(intervalFunc, 5500);
 
-	})
+	})   
 })
 
 Client.login(process.env.token);
